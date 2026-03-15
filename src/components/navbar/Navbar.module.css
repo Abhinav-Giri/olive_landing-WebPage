@@ -1,0 +1,48 @@
+.header {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 18px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 32px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.signin {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+}

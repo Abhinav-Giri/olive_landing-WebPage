@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f7f8f5;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.download{
+background:#254221;
+color:white;
+padding:14px 28px;
+border-radius:30px;
+font-weight:600;
+margin-top:20px;
+}
+.item:nth-child(2){
+transform:scale(1.1);
+opacity:1;
+}
